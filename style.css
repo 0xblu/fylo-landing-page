@@ -1,0 +1,56 @@
+* {
+  font-size: 16px;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-item a {
+  color: hsl(243, 87%, 12%);
+}
+
+.logo img {
+  width: 60%;
+  padding: 0.5rem;
+}
+
+.hero-image {
+  display: block;
+  width: 450px;
+  padding: 3rem;
+  margin: auto;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  font-size: 25px;
+}
+
+.description {
+  margin: 40px;
+}
