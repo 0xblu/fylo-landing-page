@@ -3,6 +3,7 @@
   font-family: "Open Sans";
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .attribution {
@@ -12,6 +13,13 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f8fd;
 }
 
 .header {
@@ -30,6 +38,7 @@
 
 .menu-item a {
   color: hsl(243, 87%, 12%);
+  font-family: "Raleway";
 }
 
 .logo img {
@@ -40,7 +49,7 @@
 .hero-image {
   display: block;
   width: 450px;
-  padding: 3rem;
+  padding: 5rem 0;
   margin: auto;
 }
 
@@ -53,4 +62,67 @@
 
 .description {
   margin: 40px;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.button-get-started {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.email {
+  color: hsl(0, 0%, 75%);
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 5px;
+  width: 100%;
+  height: 15px;
+}
+
+.fylo-works-button {
+  color: hsl(170, 45%, 43%);
+  border: 0px;
+  background-color: #f9f8fd;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  gap: 1rem;
+  flex-direction: column;
+  background-color: white;
+}
+
+.information {
+  font-size: 20px;
+  font-family: "Raleway";
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
