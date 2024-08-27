@@ -63,6 +63,7 @@
 .description {
   margin: 40px;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .form {
@@ -97,32 +98,71 @@
   color: hsl(170, 45%, 43%);
   border: 0px;
   background-color: #f9f8fd;
-  text-decoration: underline;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
   text-align: center;
-  width: 100%;
   padding: 15px;
+}
+
+link-button {
+}
+
+.arrow {
+  width: 30px;
 }
 
 .card {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 400px;
+  width: 450px;
   margin: auto;
   gap: 1rem;
   flex-direction: column;
   background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 125px;
 }
 
 .information {
-  font-size: 20px;
-  font-family: "Raleway";
-  margin: 40px;
   border-radius: 5px;
+  line-height: 1.5;
+  padding-bottom: 15px;
 }
 
 .avatar {
-  width: 50px;
-  height: 50px;
+  height: 40px;
   border-radius: 50%;
+}
+
+.image-author {
+  display: flex;
+  width: 100%;
+}
+
+.author {
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.job {
+  color: #444258;
+  font-size: 12px;
+  font-weight: 600;
+}
+.icon-quotes {
+  width: 20px;
+}
+
+.early-access {
+  background-color: #575989;
+  color: white;
+  padding: 80px 50px 120px;
+}
+
+.fylo-logo {
+  width: 200px;
+  padding: 10px;
 }
